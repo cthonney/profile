@@ -17,7 +17,6 @@ h1 {
   font-size: 32px;
   font-weight: 900;
   line-height: 0
-
 }
 
 h2 {
@@ -33,7 +32,6 @@ h3 {
   font-size: 30px;
   font-weight: lighter;
   font-weight: 500;
-  
 }
 
 a {
@@ -56,6 +54,17 @@ a:hover {
 .card-white {
   background-color: white;
   padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-citation {
+  color: #2cd6ce;
+  font-size: 20px;
+  background-color: white;
+  padding: 20px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin: 20px 0px;
@@ -97,6 +106,8 @@ a:hover {
   color: black;
 }
 
+
+
 #introduction p {
   margin-bottom: 45px;
 }
@@ -107,12 +118,14 @@ a:hover {
     width: 700px;
   }
 }
+
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
+
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
